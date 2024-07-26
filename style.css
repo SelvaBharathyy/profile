@@ -1,0 +1,25 @@
+#bg
+{
+    background-color: rgb(194, 234, 234);
+}
+#logocolor:hover
+{
+    color: red;
+    text-shadow: black;
+    transition: 0ms;
+}
+@keyframes first 
+{
+    50%{color: green;}
+    100%{color: red;}
+}
+#firstlogo
+{
+    color: black;
+    text-decoration: none;
+    animation:first .5s infinite ;
+}
+#logo
+{
+    padding-left: 30%;
+}
