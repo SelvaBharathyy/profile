@@ -3,7 +3,6 @@
 body {
     text-align: center;
     background-color: #131313;
-    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -16,13 +15,14 @@ table {
 }
 
 th {
-    color: #FFFFFF;
+    font-size: large;
+    color: #5eff00;
 }
 
 input {
     font-size: 20px;
     padding: 5px;
-    border-radius: 5px;
+    border-color: aqua;
 }
 
 button {
@@ -31,7 +31,6 @@ button {
     padding: 10px;
     font-size: 20px;
     background-color: #FFFFFF;
-    border-radius: 5px;
     font-weight: 600;
 }
 
